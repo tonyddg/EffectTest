@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>backani</title>
+        <meta charset="utf-8">
+        <link href="backblock.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script src="https://code.jquery.com/color/jquery.color-2.2.0.js"></script>
+        <script src="backblock.js"></script>
+    </head>
+    <body>
+        <canvas id="backblock" width="0px" height="0px"></canvas>
+        <div class="controltable">
+            <h2>ControlTable</h2>
+            <form>
+                <label class="inpPosOffset">
+                    Position Offset: <span></span>
+                    <br><input type="range" max="50" min="0" step="1" name="posOffset">
+                </label>
+                <br>
+                <label class="inpAvgSize">
+                    Avarage Size: <span></span>
+                    <br><input type="range" max="40" min="10" step="1" name="avgSize"> 
+                </label>
+                <br>
+                <label class="inpAvgDuration">
+                    Avarage Duration: <span></span>
+                    <br><input type="range" max="240" min="80" step="5" name="avgDuration">
+                </label>
+            </form>
+            <div class="blockbotton" outclr="red" inclr="yellow" actclr="white">On</div>
+        </div>
+    </body>
+</html>
